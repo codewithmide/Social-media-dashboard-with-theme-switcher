@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --big-text: 30px;
+    --medium-text: 18px;
+    --small-text: 14px;
+    --dark-bg: hsl(230, 17%, 14%);
+    --dark-card-bg: hsl(232, 19%, 15%);
+    --dark-card-bg-hover: hsl(228, 28%, 20%);
+    --dark-text-font-color: hsl(228, 34%, 66%);
+    --white: hsl(0, 0%, 100%);
+    --white-card-bg-color: hsl(225, 100%, 98%);
+    --white-bg-card-bg-hover: hsl(227, 47%, 96%);
+    --white-bg-heading-text-color: hsl(230, 17%, 14%);
+    --white-bg-body-text-color: hsl(228, 12%, 44%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 1440px;
+    font-family: 'Inter', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
