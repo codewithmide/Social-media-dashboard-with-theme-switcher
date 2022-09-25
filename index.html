@@ -8,23 +8,27 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="styles.css">
+  <link id="dark" rel="stylesheet" href="dark-styles.css">
   
   <title>Frontend Mentor | Social media dashboard with theme switcher</title>
 
 </head>
-<body>
+<body class="body">
 
   <nav>
     <header>
-      <h1>
+      <h1 class="light-heading-h1">
         Social Media Dashboard
       </h1>
       <p>
         Total Followers: 23,004
       </p>
     </header>
+  
     <div class="toggle-switch">
+      <p class="mode">
+        Dark Mode
+      </p>
       <input type="checkbox" id="switch">
       <label for="switch"></label>
     </div>
@@ -32,7 +36,7 @@
 
   <main>
     <div class="top-box">
-      <div class="top-boxes facebook">
+      <div class="top-boxes facebook light">
         <div class="row one">
           <img src="./images/icon-facebook.svg" alt="icon-facebook">
           <p>
@@ -41,7 +45,7 @@
         </div>
 
         <div class="row two">
-          <h2>
+          <h2 class="light-head">
             1987
           </h2>
           <p>
@@ -57,7 +61,7 @@
         </div>
       </div>
 
-      <div class="top-boxes twitter">
+      <div class="top-boxes twitter light-one">
         <div class="row one">
           <img src="./images/icon-twitter.svg" alt="icon-twitter">
           <p>
@@ -66,7 +70,7 @@
         </div>
 
         <div class="row two">
-          <h2>
+          <h2 class="light-head-two">
             1044
           </h2>
           <p>
@@ -82,7 +86,7 @@
         </div>
       </div>
 
-      <div class="top-boxes instagram">
+      <div class="top-boxes instagram light-two">
         <div class="row one">
           <img src="./images/icon-instagram.svg" alt="icon-instagram">
           <p>
@@ -91,7 +95,7 @@
         </div>
 
         <div class="row two">
-          <h2>
+          <h2 class="light-head-three">
             11k
           </h2>
           <p>
@@ -107,7 +111,7 @@
         </div>
       </div>
 
-      <div class="top-boxes youtube">
+      <div class="top-boxes youtube light-three">
         <div class="row one">
           <img src="./images/icon-youtube.svg" alt="icon-youtube">
           <p>
@@ -116,7 +120,7 @@
         </div>
 
         <div class="row two">
-          <h2>
+          <h2 class="light-head-four">
             8239
           </h2>
           <p>
@@ -138,14 +142,14 @@
 
 
     <div class="bottom-box">
-      <header>
+      <header class="light-heading-header">
         Overview - Today
       </header>
 
       <div class="bottom-box-container">
 
         <div class="top-bottom-section">
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-four">
             <div class="top-row-bottom">
               <p>
                 Page Views
@@ -153,7 +157,7 @@
               <img src="./images/icon-facebook.svg" alt="icon-facebook">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-five">
                 87
               </h3>
               <div class="rate">
@@ -165,7 +169,7 @@
             </div>
           </div>
   
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-five">
             <div class="top-row-bottom">
               <p>
                 Likes
@@ -173,7 +177,7 @@
               <img src="./images/icon-facebook.svg" alt="icon-facebook">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-six">
                 52
               </h3>
               <div class="rate">
@@ -185,7 +189,7 @@
             </div>
           </div>
   
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-six">
             <div class="top-row-bottom">
               <p>
                 Likes
@@ -193,7 +197,7 @@
               <img src="./images/icon-instagram.svg" alt="icon-instagram">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-seven">
                 5462
               </h3>
               <div class="rate">
@@ -205,7 +209,7 @@
             </div>
           </div>
 
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-seven">
             <div class="top-row-bottom">
               <p>
                 Profile Views
@@ -213,7 +217,7 @@
               <img src="./images/icon-instagram.svg" alt="icon-instagram">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-eight">
                 52k
               </h3>
               <div class="rate">
@@ -228,7 +232,7 @@
 
         <div class="bottom-bottom-section">
 
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-nine">
             <div class="top-row-bottom">
               <p>
                 Retweets
@@ -236,7 +240,7 @@
               <img src="./images/icon-twitter.svg" alt="icon-twitter">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-nine">
                 117
               </h3>
               <div class="rate">
@@ -248,7 +252,7 @@
             </div>
           </div>
 
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-ten">
             <div class="top-row-bottom">
               <p>
                 Likes
@@ -256,7 +260,7 @@
               <img src="./images/icon-twitter.svg" alt="icon-twitter">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-ten">
                 507
               </h3>
               <div class="rate">
@@ -268,7 +272,7 @@
             </div>
           </div>
 
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-eleven">
             <div class="top-row-bottom">
               <p>
                 Likes
@@ -276,7 +280,7 @@
               <img src="./images/icon-youtube.svg" alt="icon-youtube">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-eleven">
                 107
               </h3>
               <div class="rate">
@@ -288,7 +292,7 @@
             </div>
           </div>
 
-          <div class="each-bottom-box">
+          <div class="each-bottom-box light-twelve">
             <div class="top-row-bottom">
               <p>
                 Total Views
@@ -296,7 +300,7 @@
               <img src="./images/icon-youtube.svg" alt="icon-youtube">
             </div>
             <div class="bottom-row-bottom">
-              <h3>
+              <h3 class="light-head-twelve">
                 1047
               </h3>
               <div class="rate">
@@ -313,9 +317,13 @@
     </div>
   </main>
   
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/codewithmide/Social-media-dashboard-with-theme-switcher.git">Olumide Micheal</a>.
+    </div>
   </footer>
+
+  <script defer src="script.js"></script>
 </body>
 </html>
