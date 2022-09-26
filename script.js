@@ -27,6 +27,8 @@ const box_heading_nine = document.querySelector(".light-head-nine");
 const box_heading_ten = document.querySelector(".light-head-ten");
 const box_heading_eleven = document.querySelector(".light-head-eleven");
 const box_heading_twelve = document.querySelector(".light-head-twelve");
+const dark_mode_text = document.querySelector(".dark-mode");
+const light_mode_text = document.querySelector(".light-mode");
 
 
 checkbox.addEventListener("click", () => {
@@ -49,6 +51,13 @@ checkbox.addEventListener("click", () => {
     box_heading_ten.classList.toggle("light-box-bottom");
     box_heading_eleven.classList.toggle("light-box-bottom");
     box_heading_twelve.classList.toggle("light-box-bottom");
+    if (checkbox.checked) {
+        dark_mode_text.innerHTML = 'Light Mode';
+        dark_mode_text.style.color = 'black';
+        } else {
+        dark_mode_text.innerHTML = 'Dark Mode';
+        dark_mode_text.style.color = 'white';
+    }
 });
 
 checkbox.addEventListener('click', () => {
@@ -65,3 +74,5 @@ checkbox.addEventListener('click', () => {
     card_color_eleven.classList.toggle("card-light");
     card_color_twelve.classList.toggle("card-light");
 });
+
+// toggle between dark/light mode?
